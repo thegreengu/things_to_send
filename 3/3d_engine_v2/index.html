@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cubeCreator" style="background-color:rgb(235, 235, 235)">
+        <form action="javascript:void(0);" onsubmit="addCubesTolist()">
+            <input type="submit" value="Create cube please!">
+
+            <label for="width">width:</label>
+            <input type="number" id="width" name="cube" required/>
+
+            <label for="height">height:</label>
+            <input type="number" id="height" name="cube" required/>
+
+            <label for="depth">depth:</label>
+            <input type="number" step="0.01" id="depth" name="cube" required/>
+
+            <label for="posx">posx:</label>
+            <input type="number" id="posx" name="cube" required/>
+
+            <label for="posy">posy:</label>
+            <input type="number" id="posy" name="cube" required/>
+
+            <label for="color">color(optional):</label>
+            <input type="text" id="color" name="cube"/>
+        </form>
+    </div>
+    <div style="background-color:rgb(235, 235, 235); text-align: center;">
+    <br>
+        <label for="debugCB">debug view:</label>
+        <input type="checkbox" id="debugCB" name="cube"/>
+    <br>
+    </div>
+
+    <h3 style="position:absolute">
+        Move with arrow keys. 
+        <br>
+        Made by Felipe R.
+    </h3>
+
+    <canvas id="screen"></canvas>
+</body>
+</html>

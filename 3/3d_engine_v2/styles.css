@@ -1,0 +1,10 @@
+html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-y: hidden;
+}
+
+.cubeCreator{
+    text-align: center;
+    padding-top: 20px;
+}
