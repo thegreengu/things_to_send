@@ -1,0 +1,22 @@
+html, body{
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-y: hidden;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    background-color: rgb(15, 16, 18);
+}
+
+.cubeCreator{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(114,137,218);
+}
+
+label{
+    color: rgb(15, 16, 18);
+}
+
+input{
+    text-align: center;
+    color: rgb(15, 16, 18);
+}
